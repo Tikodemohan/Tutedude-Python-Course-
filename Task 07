@@ -1,0 +1,15 @@
+#Create a Dictionary of student marks 
+student_marks = {
+ 
+ "Alice": 85 ,
+ "David": 92 ,
+ "Charlie": 78, 
+ "Nick": 88 ,
+
+}
+name =input("Enter the student name : ");
+
+if name in student_marks :
+    print(name +"'s marks : "+ str(student_marks[name]));
+else :
+    print("Student not found .");
